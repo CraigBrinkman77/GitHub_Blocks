@@ -25,6 +25,12 @@ h1 {
     color: rgb(0, 255, 170);
     border:2px solid cornsilk;
 }
+.one{
+    color: rgb(255, 0, 221);
+}
+.two{
+    color: coral; 
+}
 p{
     text-align: center;
     color: cornsilk;
@@ -32,10 +38,4 @@ p{
 img {
     height: 200px;
     margin: 20px;
-}
-.one{
-    color: rgb(255, 0, 221);
-}
-.two{
-   color: coral; 
 }
