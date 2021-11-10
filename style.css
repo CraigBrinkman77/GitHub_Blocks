@@ -2,40 +2,44 @@
     background-color: black;
 }
 .container {
-    margin: 20px;
+    margin: 0 auto;
+    width: 800px;
+    padding: 10px;
+    background: darkgray;
 }
-.row1 {
-    background-color: rgb(0, 255, 170);
-}
-.row2 {
-    background-color:rgb(255, 0, 221);
-}
-.row3{
-    background-color: coral;
-}
-.row1, .row2,.row3 {
+.row {
     margin: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.one {
+    background-color: rgb(0, 255, 170);
+}
+.two {
+    background-color:rgb(255, 0, 221);
     justify-content: space-evenly;
-
+}
+.three{
+    background-color: coral;
 }
 h1 {
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(0, 255, 170);
-    border:2px solid cornsilk;
+    text-decoration: underline;
 }
-.one{
+.hub{
     color: rgb(255, 0, 221);
 }
-.two{
+.blocks{
     color: coral; 
 }
 p{
     text-align: center;
     color: cornsilk;
 }
-img {
+img.octocat {
     height: 200px;
     margin: 20px;
 }
